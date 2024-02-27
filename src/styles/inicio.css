@@ -1,0 +1,80 @@
+.conInicio{
+  margin: 15% 5% 10% 5%;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 30px;
+  cursor: default;
+}
+
+.presentacion{
+  font-size: 1em;
+  color: var(--chocolate);
+  letter-spacing: 1px;
+}
+
+.nombre{
+  font-size: 1.8em;
+  color: var(--morado);
+}
+
+.profesion{
+  font-size: 2em;
+  color: var(--lila);
+}
+
+.resumen{
+  font-size: 1em;
+  margin: 5px 0px 10px 0px;
+}
+
+h1, h2, h3{
+  margin: 0px 0px;
+}
+
+.imagen{
+  width: 180px;
+  height: 180px;
+  background-color: var(--azul_oscuro);
+  background-image: url("./assets/Yo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.8);
+  animation: animacion_perfil 8s infinite ease-in-out;
+}
+
+@keyframes animacion_perfil{
+  0%{  
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50%{
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+  100%{
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+.activo{
+  border-bottom: 1px solid chocolate;
+  text-decoration: none;
+}
+
+button{
+  font-size: 1em;
+  background-color: var(--azul);
+  color: var(--white);
+  border: 1px double white;
+  padding: 10px;
+  border-radius: 8px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button:focus,
+button:hover{
+  background-color: white;
+  color: black;
+}

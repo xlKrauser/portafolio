@@ -1,0 +1,12 @@
+.barraNav{
+  padding: 10px 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; 
+}
+
+.barraNav a{
+  font-size: 0.9em;
+  text-decoration: none;
+  color: var(--white);
+}
