@@ -8,7 +8,7 @@ function Habilidades() {
   
   return (
     <div className='conHabilidades'>
-      <div className="titHab">Habilidades</div>
+      <h1 className="titulo">Habilidades</h1>
       <span className="resumen">Estas son las tecnologias que he trabajado</span>
       {/* <h2>Fronted</h2> */}
       <div className="cajaHabilidad">

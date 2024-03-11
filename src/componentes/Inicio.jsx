@@ -5,10 +5,8 @@ function Inicio() {
   return (
     <>      
     <div className="conInicio">
-      <div className="cajaInicio">
-        <div className="title1">
-          <h2 className="presentacion">Hola! Mi nombre es</h2>
-        </div>
+      <div className="cajaInicio">        
+        <h2 className="presentacion">Hola! Mi nombre es</h2>
         <h1 className="nombre">Diego Martinez</h1>
         <h1 className="profesion">Soy desarrollador Full stack</h1>
         <p className="resumen">Hola, mi nombre es Diego Martinez. Soy ingeniero electronico<br/>con un

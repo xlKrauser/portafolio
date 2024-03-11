@@ -5,13 +5,7 @@
   /* text-align: center; */
   align-items: center;
 }
-.titHab{
-  margin: 5px 0;
-  font-size: 1.2em;
-  font-weight: 500;
-  letter-spacing: 1px;
-  border-bottom: 2px solid var(--chocolate);
-}
+
 .cajaHabilidad{
   display: flex;
   flex-direction: row;

@@ -4,7 +4,7 @@ function Info() {
   return (
     <>
       <div className="conInfo">  
-        <h1 className="titInfo">Sobre mi</h1>
+        <h1 className="titulo">Sobre mi</h1>
         <div className="rowInfo">
           <div className="col1Info">
             Hola. Soy Diego Martinez, gusto en conocerte. Puedes echar un vistazo a mi perfil profesional
